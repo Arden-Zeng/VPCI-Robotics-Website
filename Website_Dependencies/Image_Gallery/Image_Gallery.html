@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+      <link rel="stylesheet" type="text/css" href="Image_Gallery.css">
+      <script src="Image_Gallery.js"></script>
+   </head>
+   <body>
+      <!--Gallery Row #1-->
+      <div class="w3-row-padding w3-center">
+         <div class="w3-col m3">
+            <img src="../Website_Images/Team_Photos/Robotics_1.JPG" onclick="onClick(this)" class="w3-hover-opacity" alt="Team 4914 @ Southwest International">
+         </div>
+         <div class="w3-col m3">
+            <img src="../Website_Images/Team_Photos/Robotics_2.JPG" onclick="onClick(this)" class="w3-hover-opacity" alt="Team 4914 @ Southwest International">
+         </div>
+         <div class="w3-col m3">
+            <img src="../Website_Images/Team_Photos/Robotics_3.JPG" onclick="onClick(this)" class="w3-hover-opacity" alt="Team 4914 @ Southwest International">
+         </div>
+         <div class="w3-col m3">
+            <img src="../Website_Images/Team_Photos/Robotics_4.JPG" onclick="onClick(this)" class="w3-hover-opacity" alt="Team 4914 @ Southwest International">
+         </div>
+      </div>
+      <!--Gallery Row #2-->
+      <div class="w3-row-padding w3-center w3-section">
+         <div class="w3-col m3">
+            <img src="../Website_Images/Team_Photos/Robotics_5.JPG" onclick="onClick(this)" class="w3-hover-opacity" alt="Team 4914 @ Southwest International">
+         </div>
+         <div class="w3-col m3">
+            <img src="../Website_Images/Team_Photos/Robotics_6.JPG" onclick="onClick(this)" class="w3-hover-opacity" alt="Team 4914 @ Southwest International">
+         </div>
+         <div class="w3-col m3">
+            <img src="../Website_Images/Team_Photos/Robotics_7.JPG" onclick="onClick(this)" class="w3-hover-opacity" alt="Team 4914 @ Southwest International">
+         </div>
+         <div class="w3-col m3">
+            <img src="../Website_Images/Team_Photos/Robotics_8.JPG" onclick="onClick(this)" class="w3-hover-opacity" alt="Team 4914 @ Southwest International">
+         </div>
+      </div>
+      <!--Gallery Row #3-->
+      <div class="w3-row-padding w3-center w3-section">
+         <div class="w3-col m3">
+            <img src="../Website_Images/Team_Photos/Robotics_9.JPG" onclick="onClick(this)" class="w3-hover-opacity" alt="Team 4914 @ Southwest International">
+         </div>
+         <div class="w3-col m3">
+            <img src="../Website_Images/Team_Photos/Robotics_10.JPG" onclick="onClick(this)" class="w3-hover-opacity" alt="Team 4914 @ Southwest International.">
+         </div>
+         <div class="w3-col m3">
+            <img src="../Website_Images/Team_Photos/Robotics_11.JPG" onclick="onClick(this)" class="w3-hover-opacity" alt="Team 4914 @ Southwest International">
+         </div>
+         <div class="w3-col m3">
+            <img src="../Website_Images/Team_Photos/Robotics_12.JPG" onclick="onClick(this)" class="w3-hover-opacity" alt="Team 4914 @ Southwest International">
+         </div>
+      </div>
+      <!-- Modal for full size images on click-->
+      <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+         <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+         <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+            <img id="img01" class="w3-image" src="www.w3schools.com" alt="Model Image">
+            <p id="caption" class="w3-opacity w3-large"></p>
+         </div>
+      </div>
+      <!--End of Gallery-->
+   </body>
+</html>
