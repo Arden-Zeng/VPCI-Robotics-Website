@@ -2,7 +2,7 @@
  .header_text {
      text-align: center;
      color: #ffffff;
-     background: #4286f4;
+     background: #b35050;
      padding: 1%;
 }
  h1, h2, h3 {
@@ -37,9 +37,9 @@
  nav {
      width: 100%;
      margin: 0 auto;
-     background: #1a4fa5;
+     background: ##de1b1b;
      padding: 10px 0;
-     box-shadow: 0px 8px 0px #174184;
+     box-shadow: 0px 8px 0px ##d12828;
 }
  nav ul {
      list-style: none;
